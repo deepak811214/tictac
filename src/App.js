@@ -7,6 +7,7 @@ import Detail from './components/detail/Detail'
 function App() {
   return (
     <div className="App">
+      <Welcome></Welcome>
       <BrowserRouter>
         <Switch>
             <Route path="/" exact component={Welcome} />
